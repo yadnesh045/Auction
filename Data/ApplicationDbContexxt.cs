@@ -14,6 +14,8 @@ namespace Auction.Data
         }
         public DbSet<Players> Players { get; set; }
 
+        public DbSet<Players> Rahul { get; set; }
+ 
         //Rahul
     }
 }
